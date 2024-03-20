@@ -7,6 +7,13 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
+    char c[3];
+    for (int i = 0; i < 3; i++)
+        scanf("%c", &c[i]);
+
+    for (int i = 2; i >= 0; i--)
+        printf("%c", c[i]);
+
 
     return 0;
 }

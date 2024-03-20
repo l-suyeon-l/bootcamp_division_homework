@@ -8,5 +8,21 @@
 int main() {
     // 이곳에 코드를 작성해주세요!
 
+    int n;
+    
+    while(1) {
+        scanf("%d", &n);
+        if (n <= 0) {
+            printf("X\n");
+            continue;
+        }
+        
+        int sum = 0;
+        for (int i = 1; i <= n; i++)
+            sum += i;
+        printf("%d", sum);
+        break;
+    }
+
     return 0;
 }
